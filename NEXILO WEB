@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+
+<head>
+    <title>webpage</title>
+    <link rel="stylesheet" type="text/css" href="css/nexlio.css"
+</head>
+<body>
+    <div id="topbar"></div>
+  <center> <div id="container">
+    <div id="header"> 
+       <img src="image/pic.png" style="position: absolute; left: 221px;">
+     <h1 style="font-family:'Times New Roman', Times, serif;font-size: 30px;font-style: italic;">Nexilo Tech</h1>
+     <h2 style="font-size: 15px;">Chennai</h2>
+     <ul style="position: absolute; top: 50px; right: 250px;">
+     <li><a href="#">HOME</a></li>
+     <li><a href="#">ABOUT</a></li>
+     <li><a href="#">SERVICE</a></li>
+     <li><a href="#">GALLERY</a></li>
+     <li><a href="#">CONTACT</a></li>
+     </ul>
+     
+    </div>
+    <div id="banner">
+        <img src="image/banner.png">
+    </div>
+    <div id="content1">
+        <h4 class="heading">WELCOME</h4>
+        <P class="para1"> We are your one-stop destination for cutting-edge technology solutions. 
+            With a dedicated team of experts, we offer a wide range of services, 
+            from software development to cybersecurity, tailored to meet your business needs. 
+            Our mission is to empower your digital success and provide seamless IT support. 
+            Explore our services and let's embark on a journey of innovation and growth together.</P>
+        <a href="#" class="more">Read more</a>
+    </div>
+
+    <div id="content2">
+        <h5 class="heading1">ABOUT</h5>
+        <p> 1. Our company is a business that specializes in providing technology-related solutions and services.
+            2. Our company often offer services such as software development, IT consulting, and network support.
+            3. Our company play a crucial role in helping other businesses leverage technology to improve efficiency and productivity.
+            4. Also be involved in cybersecurity to protect their clients' data and systems.
+            5. Our company are at the forefront of technological innovation, constantly adapting to meet the evolving needs of their clients in the digital age.</p>
+        <a href="#" class="more1">Read more</a>
+    </div>
+    <div id="content3">
+        <h6 class="heading2">SERVICE</h6>
+        <p>1. Software Development:create custom software solutions, ranging from mobile apps to complex enterprise applications.
+            
+            2.IT Support and Maintenance:provide ongoing technical support, troubleshooting, and system maintenance to ensure smooth operations.
+            
+            3. Network Infrastructure: Setting up and maintaining network systems for data communication and connectivity within an organization.
+            
+            4. Cybersecurity:Protecting data and systems from cyber threats by implementing security measures and conducting vulnerability assessments.
+            </p>
+            <a href="#" class="more2">Read more</a>
+    </div>
+    <div id="bottom1">
+        <h2>Software Development:</h2>
+        <p>create custom software solutions, ranging from mobile apps to complex enterprise applications.
+           IT Support and Maintenance:provide ongoing technical support, troubleshooting, and system maintenance to ensure smooth operations. 
+           Network Infrastructure: Setting up and maintaining network systems for data communication and connectivity within an organization.
+           Cybersecurity:Protecting data and systems from cyber threats by implementing security measures and conducting vulnerability assessments.</p>
+    </div>
+    <div id="bottom2">
+        <img src="image/IT.png" width="100%" height="100%">
+
+    </div>
+   <div id="footer">
+    <p> &copy; 2023 | Designed by VAIRAVASAMY</p>
+   </div>
+    
+ CSS
+
+#topbar
+{
+    width: 60px;
+    height: 100%;
+    background-color: black;
+}
+body{
+    background-color: bisque;
+}
+#container
+{
+   
+    width: 70%;
+}
+#header
+{
+    height: 80px;
+    background-color:rgb(220, 244, 239);
+}
+#header img
+{
+    
+    height: 80px;
+
+}
+#header h1
+{
+    text-align: left;
+    text-indent: 100px;
+  
+}
+#header h2
+{
+    text-align: left;
+    text-indent: 100px;
+}
+#header ul
+{
+    float:right;
+    margin-top: 25px;
+    
+}
+#header ul li
+{
+    display: inline;
+    margin-right: 30px;
+
+}
+#header ul li a
+{
+    color:black;
+    text-decoration: none;
+}
+#banner img
+{
+    width: 100%;
+    height: 100%;
+}
+#content1
+{
+    width: 32%;
+    height: 350px;
+    background-color:#0384;
+    float: left;
+    margin-right: 2%;
+    
+
+}
+#content2
+{
+    width: 32%;
+    height: 350px;
+    background-color: #1481;
+    float: left;
+}
+#content3
+{
+    width: 32%;
+    height: 350px;
+    background-color: #1556;
+    float: right;
+}
+.heading
+{
+    color:white;
+    
+}
+.heading1
+{
+    color:white;
+    
+}
+.para1
+{
+    margin-left: 20px;
+    margin-right: 25px;
+
+}
+.more
+{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+.more1
+{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+.more2
+{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+.heading2
+{
+    color: white;
+}
+#bottom1
+{
+    margin-top: 15px;
+    width: 60%;
+    background-color: white;
+    height: 300px;
+    float: left;
+}
+#bottom2
+{
+    margin-top: 15px;
+    width: 40%;
+    height: 300px;
+    float: right;
+}
+#footer
+{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    clear: both;
+}
+#footer p
+{
+    color: white;
+    float:left;
+}
+
+   
+
+  </div> </center> 
+
+</body>
+</html>
